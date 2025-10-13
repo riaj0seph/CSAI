@@ -1,0 +1,7 @@
+gymnasium==1.2.1
+ale-py==0.11.2
+stable-baselines3==2.7.0
+matplotlib==3.10.0
+torch  # Latest compatible version with your setup; optional pin if needed
+numpy  # Usually required alongside Gymnasium and SB3
+tqdm   # Optional, if you use progress bars in training scripts
