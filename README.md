@@ -12,8 +12,7 @@ The project is part of a research paper exploring the performance and learning d
 - [Introduction](#introduction)
 - [Setup & Requirements](#setup--requirements)
 - [Results](#results)
-- [License](#license)
-
+  
 ---
 
 ## Introduction
@@ -25,7 +24,7 @@ This project focuses on training a reinforcement learning (RL) agent to achieve 
 ## Setup & Requirements
 
 ### 1. Open the Colab Notebook
-Open the notebook file `Breakout_RL.ipynb` in Google Colab.
+Open the notebook files `DQN.ipynb` , `PPO.ipynb` , `A2C.ipynb` in Google Colab.
 
 ### 2. Install dependencies
 Run the following cell at the top of the notebook to install all required packages as stated in the requirements.txt file.
@@ -35,4 +34,9 @@ After installing the packages, run the notebook cells sequentially to train and 
 
 ## Results
 
-Here are the final performances of the agents as referred to in the research paper. 
+Here are the final performances of the agents as referred to in the research paper. You will have to download the videos to view them.
+
+![Breakout DQN Training](DQNvid.mp4)
+![Breakout PPO Training](PPOvid.mp4)
+![Breakout A2C Training](A2Cvid.mp4)
+
